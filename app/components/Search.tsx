@@ -25,7 +25,7 @@ const Search = () => {
     <>
       <form>
         <input type="text" onChange={(e) => setInputVal(e.target.value)} />
-        <button type="button" onClick={OnClick}>
+        <button type="submit" onClick={OnClick}>
           click
         </button>
       </form>
